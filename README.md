@@ -38,7 +38,7 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
  
 * Boot 
   *   Fastboot = disabled
-  *   Boot mode = UEFI with CSM
+  *   Boot mode = UEFI
 
 * Security
   *   Secure boot = disabled
