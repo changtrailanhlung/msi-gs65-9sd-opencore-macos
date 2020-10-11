@@ -7,7 +7,7 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
 
 ---
 
-##Functional Status
+## Functional Status
 
 |Function / Hardware|Status|
 |-------------------|------|
@@ -30,7 +30,7 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
 
 ---
 
-##Pre-Installation
+## Pre-Installation
 
 MSI Bios Menu Setup
 Advanced
