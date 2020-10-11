@@ -5,7 +5,9 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
 
 **macOS Version:** Catalina 10.15.7
 
-Functional Status
+---
+
+##Functional Status
 
 |Function / Hardware|Status|
 |-------------------|------|
@@ -26,7 +28,9 @@ Functional Status
 |Killer E2500 Ethernet|Working|
 |Built-in webcam|Working|
 
-Pre-Installation
+---
+
+##Pre-Installation
 
 MSI Bios Menu Setup
 Advanced
