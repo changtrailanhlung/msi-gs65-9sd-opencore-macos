@@ -6,29 +6,6 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
 **macOS Version:** Catalina 10.15.7
 
 Functional Status
-Function / Hardware	Status
-iGPU UHD630 Acceleration	Working
-CPU Power Management	Working - idles at 800MHz, boosts to max Turbo frequency
-Laptop Keyboard	Working
-Laptop Trackpad	Working
-Laptop Headphones Jack	Not working - distorted sound
-Built-in Speakers	Working - missing subwoofer
-Built-in Mic	Working
-Hotkeys for audio	Working
-USB 3.x	Working
-USB 2.0	Working
-Fingerprint Sensor	Not working
-SD Card Slot	Not working
-Screen brightness	Working, hotkeys fn+S/fn+B to decrease/increase brightness
-Built-in Wifi	Working
-Built-in Bluetooth	Working
-Dell USB3.1 dock	Working
-RTL8153 USB Ethernet on Dell dock	Working
-Other peripherals on Dell dock	Working
-Built-in webcam	Working
-Sleep	Dell BIOS bug (Enable "block sleep" in BIOS to disable S3 for now)
-
-Functional Status
 
 |Function / Hardware|Status|
 |-------------------|------|
