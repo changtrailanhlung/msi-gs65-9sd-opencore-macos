@@ -4,3 +4,62 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
 **OpenCore Version:** 0.6.1
 
 **macOS Version:** Catalina 10.15.7
+
+Functional Status
+Function / Hardware	Status
+iGPU UHD630 Acceleration	Working
+CPU Power Management	Working - idles at 800MHz, boosts to max Turbo frequency
+Laptop Keyboard	Working
+Laptop Trackpad	Working
+Laptop Headphones Jack	Not working - distorted sound
+Built-in Speakers	Working - missing subwoofer
+Built-in Mic	Working
+Hotkeys for audio	Working
+USB 3.x	Working
+USB 2.0	Working
+Fingerprint Sensor	Not working
+SD Card Slot	Not working
+Screen brightness	Working, hotkeys fn+S/fn+B to decrease/increase brightness
+Built-in Wifi	Working
+Built-in Bluetooth	Working
+Dell USB3.1 dock	Working
+RTL8153 USB Ethernet on Dell dock	Working
+Other peripherals on Dell dock	Working
+Built-in webcam	Working
+Sleep	Dell BIOS bug (Enable "block sleep" in BIOS to disable S3 for now)
+
+Functional Status
+
+|Function / Hardware|Status|
+|-------------------|------|
+|iGPU UHD630 Acceleration|Working|
+|dGPU NVIDIA GTX1660Ti Acceleration|Not Working|
+|CPU Power Management|Working - idles at 800MHz, boosts to max Turbo frequency|
+|Laptop Keyboard|Working - missing control LED (SSE3)|
+|Laptop Trackpad|Working|
+|Laptop Headphones Jack|Working|
+|Built-in Speakers|Working - missing NAHIMIC|
+|Built-in Mic|Working|
+|Hotkeys for audio, brightness, webcam, touchpad|Working|
+|USB 3.x|Working|
+|Screen brightness|Working, hotkeys fn+PGUP/fn+PGDN to increase/decrease brightness|
+|Built-in Wifi|Working|
+|Built-in Bluetooth|Working|
+|USB type C - thunderbolt 3|Working|
+|Killer E2500 Ethernet|Working|
+|Built-in webcam|Working|
+
+Pre-Installation
+
+MSI Bios Menu Setup
+Advanced
+
+Sata mode = AHCI (Only necessary if you're not using an external SSD to install macOS. Warning: if switched from RAID to AHCI, your Windows install and all data will be lost)
+VT-d = Disabled
+Boot
+
+Fastboot = disabled
+Boot mode = UEFI with CSM
+Security
+
+Secure boot = disabled
