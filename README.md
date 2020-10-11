@@ -30,17 +30,15 @@ This is an OpenCore EFI that allows you to install and boot macOS X Catalina on 
 
 ---
 
-## Pre-Installation
+## MSI Bios Menu Setup 
 
-MSI Bios Menu Setup
-Advanced
+* Advanced
+  *   Sata mode = AHCI ***(Only necessary if you're not using an external SSD to install macOS. Warning: if switched from RAID to AHCI, your Windows install and all data will be lost)***
+  *   VT-d = Disabled
+ 
+* Boot 
+  *   Fastboot = disabled
+  *   Boot mode = UEFI with CSM
 
-Sata mode = AHCI (Only necessary if you're not using an external SSD to install macOS. Warning: if switched from RAID to AHCI, your Windows install and all data will be lost)
-VT-d = Disabled
-Boot
-
-Fastboot = disabled
-Boot mode = UEFI with CSM
-Security
-
-Secure boot = disabled
+* Security
+  *   Secure boot = disabled
