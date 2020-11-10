@@ -1,5 +1,5 @@
 # MSI GS65 9SD macOS (opencore)
-This is an OpenCore EFI that allows you to install and boot macOS X Catalina on your Dell XPS 15 9500 (2020).
+This is an OpenCore EFI that allows you to install and boot macOS X Catalina on your GS65 Steal 9SD.
 
 **OpenCore Version:** 0.6.1
 
